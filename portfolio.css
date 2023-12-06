@@ -16,6 +16,9 @@ header {
     background-color: #333;
     padding: 20px;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -23,12 +26,16 @@ h1 {
     margin-bottom: 10px;
 }
 
+nav {
+    display: flex;
+}
+
 nav ul {
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 10px;
 }
 
@@ -37,46 +44,18 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Section styles */
-section {
+/* Main content styles */
+main {
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-}
-
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.project {
-    margin-bottom: 10px;
-}
-
-.project h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
 }
 
 /* Footer styles */
 footer {
     background-color: #333;
-    padding: 10px;
+    padding: 20px;
     color: #fff;
     text-align: center;
 }
 
-/* Media queries for responsive design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    .project h3 {
-        font-size: 16px;
-    }
-}
+/* Additional styling */
+/* Add other styles here to make the portfolio more beautiful */
