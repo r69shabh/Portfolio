@@ -11,6 +11,7 @@ Features:
 
 <img width="1440" alt="Screenshot 2023-12-06 at 18 52 31" src="https://github.com/r69shabh/r69folio/assets/143521130/acd04544-cb53-4a78-8ed4-5788c0b433a1">
 
+
 Version 1.1
 
 features:
