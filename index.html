@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
-    <title>r69shabh</title>
+    <title>Responsive Website</title>
+    <style>
+        /* Styles for desktop screens */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        /* Styles for mobile screens */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>r69shabh</h1>
@@ -29,7 +65,7 @@
         <section id="about">
             <h2>About</h2>
             <p>I am Rishabh, BTech CSAI Student at Newton School of Technology. Interested in various things like tech, design & psychology.</p>
-            
+
         </section>
 
         <section id="projects">
@@ -45,9 +81,6 @@
             <!-- Content for the contact section -->
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2023 r69shabh. All rights reserved.</p>
-    </footer>
 </body>
+
 </html>
